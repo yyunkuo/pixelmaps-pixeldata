@@ -11,11 +11,11 @@ function setup() {
 
 function draw() {
   background(0, 50, 50);
-  imageMaterial.resize(20, 20);
-  fill(200, 50, 50);
+  // fill(200, 50, 50);
   noStroke();
+  imageMaterial.resize(20, 20);
   imageMaterial.loadPixels();
-
+  
   console.log(imageMaterial.width)
 
   for (let y = 0; y < imageMaterial.height; y++) {
